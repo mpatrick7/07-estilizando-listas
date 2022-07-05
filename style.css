@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+ /* Esse codigo abaixo é caso não ache a imagem para ter um icone reserva, que é o square.
+ E o inside serve para o icone da imagem ficar dentro da bordar caso tenha  */
+    list-style: square inside url('./images/icone.png');
+
+    background-color: #ffa500;
+}
+
+ul li {
+    border: 1px solid #000000;
+    padding: 20px;
+}
+
+ol {
+    list-style: square inside url('./images/icone.png');
+
+    background-color: #afeeee;
+}
+
+ol li {
+    border: 1px solid #000000;
+    padding: 20px;
+}
